@@ -1,0 +1,3 @@
+# User Config
+*.DS_Store
+.env
