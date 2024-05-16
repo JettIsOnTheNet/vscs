@@ -60,9 +60,11 @@
     <meta content="1.0.0" name="version" />
     <script>
         window.onload = function() {
-          document.getElementById("doit").onmouseover = function() {
-            window.location.href = "https://store.neovim.io";
-          }
+            document.getElementById("doit").onmouseover = function() {
+                setTimeout(function() {
+                    window.location.href = "https://store.neovim.io";
+                }, 3000); 
+            }
         }
       </script>
   </head>
